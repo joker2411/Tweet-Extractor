@@ -16,7 +16,7 @@ api = tweepy.API(auth,wait_on_rate_limit=True)
 
 ####i using the hashtag '#BharatBachao'
 # Open/Create a file to append data
-csvFile = open('ua.csv', 'a')
+csvFile = open('test.csv', 'a')
 #Use csv Writer
 csvWriter = csv.writer(csvFile)
 
